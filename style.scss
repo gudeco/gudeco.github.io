@@ -19,7 +19,7 @@ html {
  }
 
 body {
-	background: $darkgray;
+	background: $darkergray;
   background-image: url(http://fc09.deviantart.net/fs71/i/2014/019/0/f/aspiradorssauro_by_gudeco-d72sxf0.jpg);
   background-size: 100%;
   background-attachment:fixed;
@@ -124,7 +124,7 @@ img {
 
 .date {
   font-style: italic;
-  color: $gray;
+  color: $white;
 }
 
 // Specify the color of the selection
@@ -172,8 +172,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 200px;
-  height: 2000px;
+  width: 300px;
+  height: 300px;
   margin-right: 15px;
 
   @include mobile {
