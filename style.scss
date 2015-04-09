@@ -20,7 +20,7 @@ html {
 
 body {
 	background: $white;
-  background-image: url(https://scontent-gru.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11062633_1418476155127237_4810966097381140268_n.jpg?oh=11a246b6eabaf29fb0e27665cb0a87ab&oe=55B5AF82);
+  background-image: url(https://fbcdn-sphotos-b-a.akamaihd.net/hphotos-ak-xfp1/v/t1.0-9/10610701_1418476945127158_3378888318197393025_n.jpg?oh=0f0ef6b5668eea492839d5034e02f733&oe=55A2D36A&__gda__=1436936250_22fb416a6bfd5255d7d58fc945825d54);
   background-size: 100%;
   background-attachment:fixed;
   font: 18px/1.4 $helvetica;
@@ -172,8 +172,8 @@ img {
 
 .site-avatar {
   float: left;
-  width: 70px;
-  height: 70px;
+  width: 200px;
+  height: 200px;
   margin-right: 15px;
 
   @include mobile {
