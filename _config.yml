@@ -6,11 +6,11 @@
 name: gudeco
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Documenting modest biohacking attempts
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://scontent-gru.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/10801651_1380446705596849_8749481034466814610_n.jpg?oh=e66de4d6b1b5d7782af305c42ab01931&oe=55B32F6C
-
+avatar-size 100% 
 #
 # Flags below are optional
 #
