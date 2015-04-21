@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  An Overview on the Biohack Academy
+title:  A Biohack Academy Overview
 ---
 
 Within the next months, this blog will document every step taken in order to comply with the guidelines of the Biohack Academy, ministred by the Waag Society.
