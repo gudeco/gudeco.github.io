@@ -3,7 +3,7 @@ layout: post
 title:  An Overview on the Biohack Academy
 ---
 
-Within the next months, this blog will document every step taken to comply with the guidelines of the Biohack Academy, ministred by the Waag Society.
+Within the next months, this blog will document every step taken in order to comply with the guidelines of the Biohack Academy, ministred by the Waag Society.
 During this course, several devices will be built for experimental purposes, such as: 
 
 1- an Incubator
