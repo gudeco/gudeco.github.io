@@ -22,4 +22,6 @@ During this period, several devices will be built for experimental purposes, suc
 
 8- a Bioreactor
 
-The objetive of this blog is to provide the reader with the necessary tools and knowledge to reproduce said devices and experiments in accordance with the Do-It-Yourself philosophy and protocols. It will contain images of the building process, circuit diagrams and narrative descriptions of the overall practices and procedures.
+The primary objetive of this blog is to provide the reader with the necessary tools and knowledge to reproduce said devices and experiments in accordance with the Do-It-Yourself philosophy and protocols. It will contain images of the building process, circuit diagrams and narrative descriptions of the overall practices and procedures.
+
+Additionally, this blog shall alo discuss personal projects and modifications applied to the original designs in equal detail. 
