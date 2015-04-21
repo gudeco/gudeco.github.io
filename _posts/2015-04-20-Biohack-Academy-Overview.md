@@ -4,7 +4,7 @@ title:  A Biohack Academy Overview
 ---
 
 Within the next months, this blog will document every step taken in order to comply with the guidelines of the Biohack Academy, ministred by the Waag Society.
-During this course, several devices will be built for experimental purposes, such as: 
+During this period, several devices will be built for experimental purposes, such as: 
 
 1- an Incubator
 
