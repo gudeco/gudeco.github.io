@@ -3,7 +3,7 @@ layout: post
 title:  Assembling and Modifying the Incubator
 ---
 
-The first step to develop cell cultures in order to engage in biohacking experiments or feed a bioreactor is to find a way to potentialize the colonies' growth and keep them thriving. Since we will be working with different types of microbiological material, parameters such as temperature and humidity must be adjustable. 
+The first step to develop cell cultures in order to engage in biohacking experiments or feed a bioreactor is to find a way to potentialize the colonies' growth and keep them thriving. Since we will be working with different types of microbiological material, it is desirable that parameters such as temperature and humidity are adjustable. 
 
 
 
