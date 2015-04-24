@@ -14,7 +14,9 @@ By inverting the lens of a 3$USD webcam and assembling a structure to control pr
 
 <img src="https://scontent-gru.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11010296_1423210054653847_4058828811603832798_n.jpg?oh=c518b2e301520961e228a910217f9cbd&oe=559A9AFF" width="887" height="499" border="1" />
 
-The USB connection allows the images to be recorded through a computer. Adding LEDs to the circuit may be helpful in the production of better images, since light plays an important role in close-up resolution. These are growing pubic hairs from a random girl I meet through <a href="http://www.gotinder.com/"target="_blank">Tinder™</a>.
+The USB connection allows the images to be recorded through a computer. Adding LEDs to the circuit may be helpful in the production of better images, since light plays an important role in close-up resolution. 
+
+Now it's time to test the device with some pictures. These are growing pubic hairs from a random girl I meet through <a href="http://www.gotinder.com/"target="_blank">Tinder™</a>:
 
 <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/q82/p235x350/11149536_1423209054653947_6124233958172818274_n.jpg?oh=484a9a6a6f4cf3389aa3eaabe3d95c2f&oe=55A39567&__gda__=1436777060_d479b478347028cad81933b7d4325994"alt="inc" width="727" height="541" border="1" />
 
