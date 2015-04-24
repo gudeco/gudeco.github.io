@@ -8,7 +8,7 @@ During this period, several devices will be built for experimental purposes, suc
 
 1- an [Incubator] (http://gudeco.github.io/Assembling-the-Incubator/)
 
-2- a Microscope
+2- a [Microscope] (http://gudeco.github.io/Microscope/)
 
 3- a Sterile hood
 
