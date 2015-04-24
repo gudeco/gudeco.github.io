@@ -4,7 +4,7 @@ title:  Microscope
 ---
 As the colonies grew, the need for some sort of optical instrument to observe them closely was evidenced. Reasonably, the next step was to build a microscope. 
 
-<img src="https://scontent-gru.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/11164802_1423195561321963_3910666817930512646_n.jpg?oh=aa91f9eba26f9efdf82879fae93ca1d0&oe=55CFB6CB"alt="inc" width="800" height="510" border="1" />
+<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xat1/v/t1.0-9/1528657_1423354547972731_3472741368734241181_n.jpg?oh=e0f395d8fbefbce5ea44f6fdb1889265&oe=55996355&__gda__=1440929674_7f4c901ee57305a741ead012295f4694"alt="inc" width="800" height="561" border="1" />
 
 To do so, the wonders of <a href:"http://en.wikipedia.org/wiki/Radius_of_curvature_%28optics%29"target=blank"> ROC </a> were explored.
 
