@@ -28,7 +28,7 @@ With everything in place, it was time to turn it on:
 <img src="https://scontent-gru.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/11188248_1423179397990246_3816158107642862709_n.jpg?oh=190d64f8e50b00d2e9e411b48a217175&oe=55DEFACE" 
 alt="inc" width="281" height="499" border="1" />
 
-These were some of the Petri Dishes used in our first experiment, in which random bacteria were collected from people's hands and personal objects for testing purposes:
+Gladly it worked and nobody died. These were some of the Petri Dishes used in our first experiment, in which random bacteria were collected from people's hands and personal objects for testing purposes:
 
 <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10898297_1423073181334201_8190557592477610890_n.jpg?oh=0d47447df6dcc29c8fd02685348a4929&oe=559BCDE9&__gda__=1441139670_2c2e2218cc17e0ab0020071efa0633ba" 
 alt="inc" width="337" height="300" border="1" />
