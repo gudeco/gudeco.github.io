@@ -17,3 +17,11 @@ By inverting the lens of a 3$USD webcam and assembling a structure to control pr
 The USB connection allows the images to be recorded through a computer. Adding LEDs to the circuit may be helpful in the production of better images, since light plays an important role in close-up resolution. These are growing pubic hairs from a random girl I meet through <a href="http://www.gotinder.com/"target="_blank">Tinder™</a>.
 
 <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/q82/p235x350/11149536_1423209054653947_6124233958172818274_n.jpg?oh=484a9a6a6f4cf3389aa3eaabe3d95c2f&oe=55A39567&__gda__=1436777060_d479b478347028cad81933b7d4325994"alt="inc" width="727" height="541" border="1" />
+
+I am not sure what this is:
+
+<img src="https://scontent-gru.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/11112811_1423214857986700_8017655681539862187_n.jpg?oh=56c087655ab982b9614a6b75d955ceab&oe=55DE4FE1"alt="inc" width="803" height="615" border="1" />
+
+But her hair was surely lovely.
+
+<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/10365782_1423214867986699_6771311174960161197_n.jpg?oh=606f613ff751e6936c42b999bd38ef78&oe=55CD2A7E&__gda__=1440247029_588be4c022eb581e8d05656ec1b1f806"alt="inc" width="753" height="597" border="1" />
