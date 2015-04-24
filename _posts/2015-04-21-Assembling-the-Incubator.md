@@ -5,7 +5,7 @@ title:  Assembling and Modifying the Incubator
 
 The first step to develop cell cultures in order to engage in biohacking experiments or feed a bioreactor is to find a way to optimize the colonies' growth and keep them thriving. Since we will be working with different types of microbiological material, it is desirable that parameters such as temperature and medium are adjustable.
 
-A simple way to move forward with such requirements is to build an insulated box furnished with a variable heat source, that is, an <a href="http://en.wikipedia.org/wiki/Incubator_(culture)"> incubator] </a>. The medium can be controlled by using different types of <a href="http://en.wikipedia.org/wiki/Petri_dish"> Petri Dishes </a> to store the colonies.
+A simple way to move forward with such requirements is to build an insulated box furnished with a variable heat source, that is, an <a href="http://en.wikipedia.org/wiki/Incubator_(culture)"> incubator </a>. The medium can be controlled by using different types of <a href="http://en.wikipedia.org/wiki/Petri_dish"> Petri Dishes </a> to store the colonies.
 
 Styrofoam sheets were used to isolate the inner part from the cover and the outside environment. Heat was provided by an infrared lamp, which turns on and off depending on the target temperature and on the readings of a <a href="http://en.wikipedia.org/wiki/Thermistor> thermistor </a>. 
 
