@@ -18,7 +18,7 @@ During this period, several devices will be built for experimental purposes, suc
 
 6- a Mass Spectrometer
 
-7- Syringes & peristaltic pumps
+7- a Peristaltic Pump for syringes
 
 8- a Bioreactor
 
