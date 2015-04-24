@@ -13,7 +13,7 @@ The <a href="http://biohackacademy.github.io/biofactory/class/1/Incubator-Fritzi
 
 <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/11061982_1423136377994548_1894585970475729822_n.jpg?oh=d3fc5f0d9d42b9d613dd0104a357299d&oe=559862D8&__gda__=1440498032_20d922ecdbd4b3af3dbcdfe68a04fdde"alt="inc" width="800" height="565" border="1" />
 
-<img src="https://scontent-gru.xx.fbcdn.net/hphotos-xpa1/v/t1.0-9/11056068_1423358411305678_3956225601870821440_n.jpg?oh=5d77d7c1b77f0d3a0d4265ebdea8a4d1&oe=55E242ED"alt="inc" width="800" height="565" border="1" />
+<img src="https://scontent-gru.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/11160576_1423354614639391_8603157983136856846_n.jpg?oh=339d5a75487078f3aa54fbb7af1b95ae&oe=55D73294"alt="inc" width="800" height="565" border="1" />
 
 The MDF encasing structure was laser cut in accordance with <a href="biohackacademy.github.io/biofactory/class/1/Incubator-SVGs.zip"target="_blank"> this file </a> and assembled in a workshop. Holes were drilled to open path for cabling and to clench the PC cooler that serves as a fan to disseminate heat throughout the inner compartment (as shown in the horrible picture below).
 
