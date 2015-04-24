@@ -11,7 +11,7 @@ Styrofoam sheets were used to isolate the inner part from the cover and the outs
 
 The <a href="http://biohackacademy.github.io/biofactory/class/1/pdf/5%20Incubator%20design.pdf"target="_blank"> original project </a> was modified in the sense that a different LCD pannel was used and the fan's mosfet was replaced by a relay. The <a href="https://drive.google.com/open?id=0BxTWOUpE59OrZGNIN1p3WS0ycWtWeHZWWklrV0hfdGxhaXZJ&authuser=0"target="_blank"> schematics </a> can be better visualized with <a href="http://fritzing.org/download/"target="_blank"> Fritzing </a> and the full Arduino code can be downloaded <a href="https://drive.google.com/file/d/0BxTWOUpE59OrLVlYcmQ0X3VoU2M/view?usp=sharing"target="_blank"> through this link </a>, but here is a quick incomprehensible sketch that was subsequently attacked and destroyed by dead animals from ancient times:
 
-<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/15576_1423136071327912_5648323525979756981_n.jpg?oh=21dd55d2a1c54b099639852dff4f61c2&oe=55D7B0F1&__gda__=1439940164_064f154a5a938a3014d26cc7e064433f"alt="inc" width="800" height="582" border="1" />
+<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/11061982_1423136377994548_1894585970475729822_n.jpg?oh=d3fc5f0d9d42b9d613dd0104a357299d&oe=559862D8&__gda__=1440498032_20d922ecdbd4b3af3dbcdfe68a04fdde"alt="inc" width="800" height="582" border="1" />
 
 The MDF encasing structure was laser cut in accordance with <a href="biohackacademy.github.io/biofactory/class/1/Incubator-SVGs.zip"target="_blank"> this file </a> and assembled in a workshop. Holes were drilled to open path for cabling and to clench the PC cooler that serves as a fan to disseminate heat throughout the inner compartment.
 
