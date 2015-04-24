@@ -11,7 +11,7 @@ As the colonies grew, the need for some sort of optical instrument to observe th
 
 By inverting the lens of a 3$USD webcam and assembling a structure to control proximity, a cheap digital microscope was created.
 
-<img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/11053154_1423207727987413_9168639125213744757_n.jpg?oh=80e1067bb9962afa17c2adced7cc511f&oe=55D78EE2&__gda__=1440420181_04df773ccaca6f5bbdfca20f5cbe885a"alt="inc" width="887" height="499" border="1" />
+<img src="https://scontent-gru.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11010296_1423210054653847_4058828811603832798_n.jpg?oh=c518b2e301520961e228a910217f9cbd&oe=559A9AFF" width="887" height="499" border="1" />
 
 The USB connection allows the images to be recorded through a computer. These are growing pubic hairs from a random girl I meet through <a href="http://www.gotinder.com/"target="_blank">Tinder™</a>.
 
