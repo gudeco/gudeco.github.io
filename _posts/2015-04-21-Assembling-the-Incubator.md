@@ -7,7 +7,7 @@ The first step to develop cell cultures in order to engage in biohacking experim
 
 
 
-The [project] (https://drive.google.com/open?id=0BxTWOUpE59OrZGNIN1p3WS0ycWtWeHZWWklrV0hfdGxhaXZJ&authuser=0) can be better visualized with [fritzing] (http://fritzing.org/download/), but here is a quick incomprehensible sketch that was subsequently attacked by the souls of dead animals from ancient times:
+The [project] (https://drive.google.com/open?id=0BxTWOUpE59OrZGNIN1p3WS0ycWtWeHZWWklrV0hfdGxhaXZJ&authuser=0) can be better visualized with [fritzing] (http://fritzing.org/download/), but here is a quick incomprehensible sketch that was subsequently attacked by dead animals from ancient times:
 
 <img src="http://tinyurl.com/kmxmpsp"alt="inc" width="800" height="582" border="1" />
 
