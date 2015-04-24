@@ -9,11 +9,11 @@ A simple way to move forward with such requirements is to build an insulated box
 
 Styrofoam sheets were used to isolate the inner part from the cover and the outside environment. Heat was provided by an infrared lamp, which turns on and off depending on the target temperature and on the readings of a [thermistor] (http://en.wikipedia.org/wiki/Thermistor). 
 
-The original project was modified in the sense that a different LCD pannel was used and the fan's mosfet was replaced by a relay. The [schematics] (https://drive.google.com/open?id=0BxTWOUpE59OrZGNIN1p3WS0ycWtWeHZWWklrV0hfdGxhaXZJ&authuser=0) can be better visualized with [Fritzing] (http://fritzing.org/download/) and the full Arduino code can be downloaded [through this link] (https://drive.google.com/file/d/0BxTWOUpE59OrLVlYcmQ0X3VoU2M/view?usp=sharing), but here is a quick incomprehensible sketch that was subsequently attacked and destroyed by dead animals from ancient times:
+The [original project] (http://biohackacademy.github.io/biofactory/class/1/pdf/5%20Incubator%20design.pdf) was modified in the sense that a different LCD pannel was used and the fan's mosfet was replaced by a relay. The [schematics] (https://drive.google.com/open?id=0BxTWOUpE59OrZGNIN1p3WS0ycWtWeHZWWklrV0hfdGxhaXZJ&authuser=0) can be better visualized with [Fritzing] (http://fritzing.org/download/) and the full Arduino code can be downloaded [through this link] (https://drive.google.com/file/d/0BxTWOUpE59OrLVlYcmQ0X3VoU2M/view?usp=sharing), but here is a quick incomprehensible sketch that was subsequently attacked and destroyed by dead animals from ancient times:
 
 <img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/15576_1423136071327912_5648323525979756981_n.jpg?oh=21dd55d2a1c54b099639852dff4f61c2&oe=55D7B0F1&__gda__=1439940164_064f154a5a938a3014d26cc7e064433f"alt="inc" width="800" height="582" border="1" />
 
-The MDF encasing structure was laser cut in accordance with [this file] ( ) and assembled in a workshop. Holes were drilled to open path for cabling and to clench the PC cooler that serves as a fan to disseminate heat throughout the inner compartment.
+The MDF encasing structure was laser cut in accordance with [this file] (biohackacademy.github.io/biofactory/class/1/Incubator-SVGs.zip) and assembled in a workshop. Holes were drilled to open path for cabling and to clench the PC cooler that serves as a fan to disseminate heat throughout the inner compartment.
 
 <img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/p480x480/10404242_1099899320027100_3108853078127897254_n.jpg?oh=30f4fcb9408b64840d7b67ba259bc364&oe=559FE179&__gda__=1439960252_feb8793586dcf811c2f7faa947721168" 
 alt="inc" width="480" height="720" border="1" />
