@@ -7,7 +7,7 @@ The first step to develop cell cultures in order to engage in biohacking experim
 
 A simple way to move forward with such requirements is to build an insulated box furnished with a variable heat source, that is, an [incubator] ("http://en.wikipedia.org/wiki/Incubator_(culture)"). The medium can be controlled by using different types of [Petri Dishes] (http://en.wikipedia.org/wiki/Petri_dish) to store the colonies.
 
-Styrofoam sheets were used to isolate the inner part from the cover and the outside environment. Heat was provided by an infrared lamp, which turns on and off depending on the target temperature and on the readings of a [thermistor] http://en.wikipedia.org/wiki/Thermistor). 
+Styrofoam sheets were used to isolate the inner part from the cover and the outside environment. Heat was provided by an infrared lamp, which turns on and off depending on the target temperature and on the readings of a [thermistor] (http://en.wikipedia.org/wiki/Thermistor). 
 
 The [project] (https://drive.google.com/open?id=0BxTWOUpE59OrZGNIN1p3WS0ycWtWeHZWWklrV0hfdGxhaXZJ&authuser=0) can be better visualized with [fritzing] (http://fritzing.org/download/), but here is a quick incomprehensible sketch that was subsequently attacked by dead animals from ancient times:
 
