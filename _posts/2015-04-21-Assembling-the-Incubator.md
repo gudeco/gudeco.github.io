@@ -13,9 +13,9 @@ The <a href="http://biohackacademy.github.io/biofactory/class/1/Incubator-Fritzi
 
 <img src="https://fbcdn-sphotos-c-a.akamaihd.net/hphotos-ak-xtf1/v/t1.0-9/11061982_1423136377994548_1894585970475729822_n.jpg?oh=d3fc5f0d9d42b9d613dd0104a357299d&oe=559862D8&__gda__=1440498032_20d922ecdbd4b3af3dbcdfe68a04fdde"alt="inc" width="800" height="582" border="1" />
 
-The MDF encasing structure was laser cut in accordance with <a href="biohackacademy.github.io/biofactory/class/1/Incubator-SVGs.zip"target="_blank"> this file </a> and assembled in a workshop. Holes were drilled to open path for cabling and to clench the PC cooler that serves as a fan to disseminate heat throughout the inner compartment.
+The MDF encasing structure was laser cut in accordance with <a href="biohackacademy.github.io/biofactory/class/1/Incubator-SVGs.zip"target="_blank"> this file </a> and assembled in a workshop. Holes were drilled to open path for cabling and to clench the PC cooler that serves as a fan to disseminate heat throughout the inner compartment (as shown in the horrible picture below).
 
-<img src="https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/p480x480/10404242_1099899320027100_3108853078127897254_n.jpg?oh=30f4fcb9408b64840d7b67ba259bc364&oe=559FE179&__gda__=1439960252_feb8793586dcf811c2f7faa947721168" 
+<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/p320x320/11167673_1423204627987723_7386591215262085024_n.jpg?oh=141e566bff765a3dcd8d56753fb8f7c8&oe=55D8D21B&__gda__=1435992894_1ae2d4dd5a0f1ead7b1d7ea4d89cd80d" 
 alt="inc" width="480" height="720" border="1" />
 
 The breadboard and Arduino were attached to the bottom of the external framework.
