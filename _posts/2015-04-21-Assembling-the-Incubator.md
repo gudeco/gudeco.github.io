@@ -9,9 +9,9 @@ A simple way to move forward with such requirements is to build an insulated box
 
 Styrofoam sheets were used to isolate the inner part from the cover and the outside environment. Heat was provided by an infrared lamp, which turns on and off depending on the target temperature and on the readings of a [thermistor] (http://en.wikipedia.org/wiki/Thermistor). 
 
-The [project] (https://drive.google.com/open?id=0BxTWOUpE59OrZGNIN1p3WS0ycWtWeHZWWklrV0hfdGxhaXZJ&authuser=0) can be better visualized with [Fritzing] (http://fritzing.org/download/) and the Arduino code can be found [here] (https://drive.google.com/file/d/0BxTWOUpE59OrLVlYcmQ0X3VoU2M/view?usp=sharing), but here is a quick incomprehensible sketch that was subsequently attacked and destroyed by dead animals from ancient times:
+The [project] (https://drive.google.com/open?id=0BxTWOUpE59OrZGNIN1p3WS0ycWtWeHZWWklrV0hfdGxhaXZJ&authuser=0) can be better visualized with [Fritzing] (http://fritzing.org/download/) and the full Arduino code can be found [here] (https://drive.google.com/file/d/0BxTWOUpE59OrLVlYcmQ0X3VoU2M/view?usp=sharing), but here is a quick incomprehensible sketch that was subsequently attacked and destroyed by dead animals from ancient times:
 
-<img src="http://tinyurl.com/kmxmpsp"alt="inc" width="800" height="582" border="1" />
+<img src="https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-xfa1/v/t1.0-9/15576_1423136071327912_5648323525979756981_n.jpg?oh=21dd55d2a1c54b099639852dff4f61c2&oe=55D7B0F1&__gda__=1439940164_064f154a5a938a3014d26cc7e064433f"alt="inc" width="800" height="582" border="1" />
 
 <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10898297_1423073181334201_8190557592477610890_n.jpg?oh=0d47447df6dcc29c8fd02685348a4929&oe=559BCDE9&__gda__=1441139670_2c2e2218cc17e0ab0020071efa0633ba" 
 alt="inc" width="337" height="300" border="1" />
