@@ -25,8 +25,8 @@ alt="inc" width="400" height="235" border="1" />
 
 With everything in place, it was time to turn it on:
 
-<img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xpa1/v/t1.0-9/11048760_1099899450027087_2807690121244586735_n.jpg?oh=9b68762beac92145d30e0e48e0e46f89&oe=55E44C2F&__gda__=1436063045_28e9849dc62b40c170e6e6828d4b4069" 
-alt="inc" width="528" height="960" border="1" />
+<img src="https://scontent-gru.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/11188248_1423179397990246_3816158107642862709_n.jpg?oh=190d64f8e50b00d2e9e411b48a217175&oe=55DEFACE" 
+alt="inc" width="281" height="499" border="1" />
 
 These were some of the Petri Dishes used in our first experiment, in which random bacteria were collected from people's hands and personal objects for testing purposes:
 
