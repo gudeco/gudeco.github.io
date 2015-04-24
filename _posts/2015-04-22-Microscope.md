@@ -6,7 +6,7 @@ As the colonies grew, the need for some sort of optical instrument to observe th
 
 <img src="https://scontent-gru.xx.fbcdn.net/hphotos-xta1/v/t1.0-9/11164802_1423195561321963_3910666817930512646_n.jpg?oh=aa91f9eba26f9efdf82879fae93ca1d0&oe=55CFB6CB"alt="inc" width="800" height="510" border="1" />
 
-To do so, the wonders of ROC were explored.
+To do so, the wonders of <a href:"http://en.wikipedia.org/wiki/Radius_of_curvature_%28optics%29"target=blank"> ROC </a> were explored.
 
 <img src="https://scontent-gru.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11162072_1423208081320711_3339430125517758788_n.jpg?oh=252331e1548a116dcd82809e139b0826&oe=55A13638"alt="inc" width="281" height="350" border="1" />
 
