@@ -33,7 +33,7 @@ These were some of the Petri Dishes used in our first experiment, in which rando
 <img src="https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-xpf1/v/t1.0-9/10898297_1423073181334201_8190557592477610890_n.jpg?oh=0d47447df6dcc29c8fd02685348a4929&oe=559BCDE9&__gda__=1441139670_2c2e2218cc17e0ab0020071efa0633ba" 
 alt="inc" width="337" height="300" border="1" />
 
-In the absence of better life-wasting activities, you can watch the colonies grow like me.
+In the absence of better life-wasting activities, you can watch the colonies grow, like I did.
 
 <img src="https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-xaf1/v/t1.0-9/1546273_1423063354668517_6674142658355745583_n.jpg?oh=a9b66f904ff077f6e79bac6aef33ac4a&oe=55991697&__gda__=1436403238_1c215a35c7634a29ed6a686b296f97b5" 
 alt="inc" width="281" height="499" border="1" />
