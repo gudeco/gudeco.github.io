@@ -15,7 +15,7 @@ The <a href="http://biohackacademy.github.io/biofactory/class/1/Incubator-Fritzi
 
 <img src="https://scontent-gru.xx.fbcdn.net/hphotos-xtp1/v/t1.0-9/11160576_1423354614639391_8603157983136856846_n.jpg?oh=339d5a75487078f3aa54fbb7af1b95ae&oe=55D73294"alt="inc" width="800" height="565" border="1" />
 
-The MDF encasing structure was laser cut in accordance with <a href="biohackacademy.github.io/biofactory/class/1/Incubator-SVGs.zip"target="_blank"> this file </a> and assembled in a workshop. Holes were drilled to open path for cabling and to clench the PC cooler that serves as a fan to disseminate heat throughout the inner compartment (as shown in the horrible picture below).
+The MDF encasing structure was laser cut in accordance with <a href="http://biohackacademy.github.io/biofactory/class/1/Incubator-SVGs.zip"target="_blank"> this file </a> and assembled in a workshop. Holes were drilled to open path for cabling and to clench the PC cooler that serves as a fan to disseminate heat throughout the inner compartment (as shown in the horrible picture below).
 
 <img src="https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-xtp1/v/t1.0-9/p320x320/11167673_1423204627987723_7386591215262085024_n.jpg?oh=141e566bff765a3dcd8d56753fb8f7c8&oe=55D8D21B&__gda__=1435992894_1ae2d4dd5a0f1ead7b1d7ea4d89cd80d" 
 alt="inc" width="480" height="720" border="1" />
