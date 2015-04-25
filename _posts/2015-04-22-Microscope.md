@@ -10,7 +10,7 @@ To do so, the wonders of <a href:"http://en.wikipedia.org/wiki/Radius_of_curvatu
 
 <img src="https://scontent-gru.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/11162072_1423208081320711_3339430125517758788_n.jpg?oh=252331e1548a116dcd82809e139b0826&oe=55A13638"alt="inc" width="281" height="350" border="1" />
 
-By inverting the lens of a 3$USD webcam and assembling a structure to control proximity, a cheap digital microscope was created.
+By inverting the lens of a 3$USD webcam and assembling a structure to control proximity, a cheap digital microscope was created. The laser cut files can be downloaded <a href:"http://biohackacademy.github.io/biofactory/class/2/Webcam-Microscope-SVGs.zip"target=blank>here</a>.
 
 <img src="https://scontent-gru.xx.fbcdn.net/hphotos-xpf1/v/t1.0-9/11010296_1423210054653847_4058828811603832798_n.jpg?oh=c518b2e301520961e228a910217f9cbd&oe=559A9AFF" width="887" height="499" border="1" />
 
