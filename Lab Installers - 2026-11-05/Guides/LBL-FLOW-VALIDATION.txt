@@ -1,0 +1,620 @@
+LBL Flow 0.16.0 - validation record
+
+Statistical comparisons and installers (2026-11-03):
+- 240 Flow tests pass. Known analytical t, rank-test, ANOVA/Kruskal results;
+  Holm/Bonferroni adjustment; paired identities/manual pairs; exclusions;
+  undefined variance/small n; annotation exports; saved/live definitions.
+- 54 graph/statistical tests also pass with the Mac compatibility profile:
+  NumPy 2.2.6 + SciPy 1.15.3 (executed on Windows, not a native Mac test).
+- Browser checks pass for Statistics entry, independent sample group setup,
+  identity/manual pairing, stars/p-values, toggling brackets and exports.
+  Existing graph formatting/transfer checks pass without browser errors.
+- Workspace format 15 stores comparisons. Formats 1 through 14 still load.
+- Windows target: Windows 10/11 x64, current WebView2. Windows installer
+  includes the Microsoft-signed runtime bootstrapper for missing runtimes.
+- Mac targets: Intel x86_64 and Apple Silicon arm64, macOS 12.3+.
+  Offline packages include hash-verified CPython 3.12.16 and pinned wheels.
+  All wheel dependencies checked against macOS markers; 205 Mach-O files
+  per package inspected for minimum OS requirements. No minimum exceeds
+  macOS 12.3. Packages have not been installed or GUI-tested on macOS.
+  A native runtime smoke check runs during installation before replacement.
+  Mac installers are unsigned and not notarized.
+
+LBL Flow 0.15.0 - validation record
+
+Persistent figure controls and typography (2026-11-03):
+- Figure style, Axes & appearance and Sample data retain their open/closed
+  state through graph saves and structural edits. Value-only edits avoid
+  rebuilding controls; focus and scroll position stay intact.
+- Graphs offer Arial, Times New Roman, Calibri and Georgia, separate axis,
+  category, tick and title sizes, bold labels and category-label angle.
+- Axis/tick/grid thickness, tick length/count/direction, marker radius and
+  bar width are editable. Inputs validate finite values and supported ranges.
+- SVG, PNG and PDF share the selected family and styling. PDF embeds the
+  selected installed TrueType font. Margins and text fitting accommodate
+  larger fonts; numerical event values and graph summaries are unchanged.
+- All 216 Flow tests pass, including all four font families for category/XY
+  graphs, font embedding, PDF glyph bounds, saved style round trips, old
+  workspace migration, invalid formatting rejection and existing layouts.
+- Browser checks pass for consecutive formatting edits, preserved section
+  expansion, keyboard focus, scrolling, conditional controls, font/axis
+  exports, save/reopen, graph recovery, copy/paste and strategy transfer.
+  Exported PDF figures were rendered and visually checked. No JS errors.
+- Workspace format 14 stores typography and axis styles; formats 1-13 load
+  with defaults matching their earlier figure presentation.
+- Packaged-runtime checks pass for embedded font export, graph counts and
+  saved styles. Bundled UI assets match tested sources. The desktop shortcut
+  points to 0.15.0; earlier releases and the previous shortcut are retained.
+
+LBL Flow 0.14.0 - validation record
+
+Category bars with individual sample markers (2026-11-03):
+- New graphs default to Bar / dot comparison with population categories on X,
+  percent of parent on Y when gates exist, mean bars and diamond sample markers.
+  Each category has independent population, sample, label and color controls.
+- Clean figures use bold axes, sparse rounded ticks, slanted labels, muted
+  fills and colored points. Grid/title/n/caption are optional and start off.
+  Circles, custom Y labels, dark background, log/linear ranges, count or paired
+  count/percentage panels, and SD/SEM error bars remain available.
+- Bar comparison converts an existing XY graph's X/Y populations into
+  categories, taking the selected sample union and Y measure, in one undo.
+- Marker separation changes only horizontal positions; all sample Y values
+  and mean-bar heights are exact. Missing/undefined values remain explicit.
+- SVG/PDF are vector figures; PNG uses each figure's own aspect ratio at 3x.
+  Sample reference exports were rendered and visually compared with the
+  requested mean-bar/diamond style. Test values are synthetic, not user results.
+- All 200 Flow tests pass. Added cases verify known means and sample values,
+  marker Y positions, exact mean-bar heights, ticks, optional annotations,
+  zero/missing data, log axes, save/load, and migration from format 12.
+- Browser checks pass for the new default, category editing, sample subsets,
+  XY conversion, all exports, native-compatible PNG sizing, saving, undo,
+  graph-edit recovery, copied gates and strategy application. No JS errors.
+- New workspaces use format 13; formats 1-12 retain their saved appearance.
+- Packaged-runtime checks pass for exact graph counts, clean bars/markers,
+  SVG/PDF/CSV export and saved graph round trips. Bundled web assets match
+  tested sources. The desktop shortcut points to 0.14.0; older builds remain.
+
+LBL Flow 0.13.1 - validation record
+
+Preferred graph starting view (2026-11-03):
+- New graphs start in Population vs population with one point per selected
+  sample and independently editable X/Y populations and measures.
+- Initial X/Y choices use different population paths when available; axes
+  without a gated population use All events with Event count. The first
+  series is named Samples. Existing/duplicated graphs retain their settings.
+- Browser integration checks pass for the XY default, different starting
+  populations, sample count, group-mode switching, selection, exports,
+  workspace persistence, save-conflict recovery and gate transfer. No JS errors.
+
+LBL Flow 0.13.0 - validation record
+
+Comparison graphs and strategy transfer (2026-11-03):
+- Graph editor supports independent population/sample series, acquired event
+  counts, percent of parent or all events, and count/percentage paired panels.
+  Dot or bar views include individual samples, optional mean +/- SD/SEM;
+  population-versus-population views use independent X/Y populations/measures.
+- Complete population paths resolve across samples. Missing/ambiguous gates,
+  removed samples and undefined percentages are reported, not treated as zero.
+  Log axes omit nonpositive values. Counts always use full event masks.
+- Graph settings, colors, samples, scales and limits persist in workspace
+  format 12; formats 1-11 remain readable. SVG/PDF/3000x1860 PNG and CSV exports
+  verified; PDF figures rendered and visually inspected at two window sizes.
+- Ctrl+click selects multiple gates in tree or plot. Copy/paste includes
+  descendants, necessary ancestors and linked quadrants. Apply strategy
+  previews add/update/remove counts, with Merge or Replace and target choice.
+- Detector/marker matching handles reordered channels and offers explicit
+  mapping for missing or ambiguous parameters. Target compensation is kept;
+  incompatible matrices/parameters block all targets before mutation.
+- Matching target gate IDs are reused. Nested gates, display transforms,
+  population views, overlay references, label positions and colors transfer.
+  A complete multi-target application is one undoable action. Ctrl+Delete is
+  not needed: Delete removes selected branches with one undo.
+- All 195 Flow tests pass, including transfer membership with reordered
+  channels, immutable clipboard, compensation retention, atomic failures,
+  stale review rejection, graph denominators, missing values, sample SD,
+  native exports, saved graphs and multi-selection deletion.
+- Browser checks pass for Ctrl+click, Ctrl+C/Ctrl+V, review/apply, strategy replacement,
+  undo/redo, rapid sample checkbox edits, independent series, XY, count+percent
+  panels, all exports, workspace save/load, live missing populations and save
+  conflict recovery. Graph edits cause no population-plot reload. No JS errors.
+- Existing independent-label browser checks pass for all gate shapes,
+  cancellation, double-click population windows, resize, saved positions,
+  layout cache updates and vector/raster exports. No JS errors.
+- Source and packaged-runtime smoke checks pass for graphs/transfer and earlier
+  features. The packaged build verified 775,792 acquired events, exact copied
+  masks, graph counts, SVG/PDF/CSV exports and workspace round trips.
+- The 0.13.0 release and portable ZIP include the verified assets; the desktop
+  shortcut points to the new executable. The previous release is retained.
+
+LBL Flow 0.12.0 - validation record
+
+Independent population labels (2026-11-01):
+- Dragging a label in Select mode moves only its name/percentage. Label hits
+  take priority over gate bodies and handles; labels render above geometry.
+- Positions are stored as relative plot centers on individual gates, shared
+  with other windows, existing layouts and SVG/PDF/PNG exports. Figure resizing
+  retains proportional positions, with labels constrained to stay visible.
+- Rectangle, ellipse, polygon, range and quadrant labels are supported. Moving
+  one quadrant label leaves its siblings and the common intersection unchanged.
+- Live dragging stays local. One validated, undoable annotation edit is sent
+  on release, preserving event masks and the plot-data revision. Browser checks
+  observed no plot reload or Updating population overlay during or after a drag.
+- Layout cache keys include label positions so live figures update while
+  unchanged figures and layout dragging retain their existing cached content.
+- All 175 Flow regression tests pass, including 14 label cases: exact geometry
+  and masks, cached/vector figure positions, undo/redo, save/load, old-workspace
+  migration, invalid/stale edit rejection, quadrants and atomic failed loads.
+- Real-pointer checks pass for every gate shape, cancellation, edge clamping,
+  click selection, double-click population windows, proportional resize,
+  existing layout updates, SVG/PDF/PNG exports, and workspace save/reopen.
+  PDF output was rendered and visually checked. No JavaScript errors.
+- Existing ellipse pointer checks also pass: nine handles, thin/round/tilted
+  shapes, rotation, previews, undo/redo, nested windows and counts, body dragging,
+  Shift circles, saved workspaces, and edits across biexponential/asinh scales.
+- Packaged 0.12.0 verification passes for label-only mask/data preservation,
+  refreshed layout/vector positions and saved label roundtrip, plus the existing
+  ellipse, quadrant, color, reverse-gate, camera and figure checks. Bundled UI
+  files match the verified source. Report: qa/packaged-0120-labels.json.
+- Workspace format 11 persists labels. Formats 1-10 remain readable.
+
+Reproduce: tests/test_flow_labels.py; tools/verify_flow_labels.py
+Artifacts: qa/flow-labels
+
+Historical 0.11.2 validation:
+
+LBL Flow 0.11.2 - validation record
+
+Continuous ellipse drawing (2026-11-01):
+- The opening stroke sets the long-axis direction. A straight drag produces
+  a 2:1 oval aligned with the stroke. While the same pointer remains held,
+  sideways movement widens or narrows it before release. Near-equal radii
+  snap to a circle within 3 screen pixels; Shift forces an exact circle.
+- Native FlowJo comparison confirmed that straight horizontal and diagonal
+  drags create aligned ovals with approximately 2:1 proportions. Both temporary
+  comparison gates were cancelled. LBL's continuous width adjustment is its
+  implementation of the requested one-drag workflow, not a verified replica
+  of every FlowJo gesture.
+- Drawing uses screen-space axes and stores the existing exact affine ellipse
+  representation. Live outlines and committed outlines match; existing gates,
+  transforms, saved files and the workspace format are unchanged.
+- All 161 Flow regression tests pass.
+- Real-pointer checks pass in seven directions, with thin and round variants,
+  circle creation without Shift, Shift circles, click rejection, Escape,
+  independent exact-event membership, and unequal/nonlinear axes. Drawing
+  retains the existing population data and does not mutate history until commit.
+- Existing browser checks pass for all nine edit handles, thin/round/tilted
+  shapes, rotation, fixed opposite endpoint, preview/commit agreement, cancel,
+  undo/redo, nested windows and live counts, movement, save/reload and editing
+  after biexponential/asinh changes. No JavaScript errors.
+- Packaged 0.11.2 checks pass using the saved ellipse-drawing workspace, including
+  membership, roundtrip, rotation, reverse gating, 3D camera reuse and exports.
+  Bundled app.js and index.html hashes match the verified source.
+
+Reproduce: tools/verify_flow_ellipse_drawing.py; tools/verify_flow_ellipses.py
+Artifacts: qa/flow-ellipse-drawing; qa/flow-ellipses; qa/packaged-0112-ellipse.json
+
+Historical 0.11.1 validation:
+
+LBL Flow 0.11.1 - validation record
+
+Fullscreen shortcut (2026-11-01):
+- F11 toggles native fullscreen independently for each desktop window. The
+  native window manager restores the previous size, position and window state.
+- The shortcut runs before modal, text-field, layout and busy-state guards.
+  Held-key repeats and overlapping fullscreen requests are ignored.
+- Fullscreen does not change workspace revisions or reload population data.
+- All 22 desktop bridge and workspace regression tests pass.
+- Browser checks pass for fullscreen entry/exit, open axis settings, layout
+  editor, held keys, native bridge dispatch, unchanged revision and reused plot.
+  No JavaScript errors. Report: qa/fullscreen-browser-0111.json.
+- Packaged 0.11.1 was checked with actual F11 keypresses on Windows: fullscreen
+  removed the title bar and filled the display; F11 restored the original
+  position and dimensions. Both directions also worked with axis settings open.
+- Workspace archive format remains 10, compatible with LBL Flow 0.11.0.
+
+Historical 0.11.0 validation:
+
+LBL Flow 0.11.0 - validation record
+
+Reverse gating (2026-11-01):
+- All 161 Flow regression tests pass, including 13 new reverse-gating cases.
+- Reverse gate selects the gate selected on the graph or current population,
+  supports custom color/bordeaux/off, and opens its parent when necessary.
+- Exact full-event masks determine highlighting in strict ancestor populations
+  only, independent of display axes. No highlights leak into sibling populations.
+  Gate edits, delete/undo and saved workspaces retain the correct membership.
+- Density background values and event arrays remain unchanged. Separate highlight
+  sampling retains rare populations; up to eight reverse gates share 35,000 extra
+  displayed points. Nested/later gates take precedence on overlap.
+- 2D/3D density and dot views, contours and full-event histogram traces pass.
+  Layout previews and SVG/PDF/PNG exports include the highlights and legends.
+  PDF output was rendered and visually checked.
+- Browser checks pass for selected-population defaults, cancel, automatic parent
+  navigation, all ancestors, all plot styles, color/off/undo, save/reload and
+  exact gate membership. Rotating 3D density with reverse highlights retains
+  the same plot data and shows no loading overlay. No JavaScript errors.
+- Packaged 0.11.0 checks pass on the saved reverse-gate demo and the existing
+  775,792-event workspace: exact reverse memberships (205,543 in the large-sample
+  probe), separate sampling, stable density, camera reuse and vector exports.
+- Workspace format 10 stores reverse colors on population gates. Formats 1-9
+  remain readable; new archives require LBL Flow 0.11.0 or later.
+
+Reproduce: tools/verify_flow_reverse.py
+Artifacts: qa/flow-reverse
+
+Historical 0.10.1 validation:
+
+LBL Flow 0.10.1 - validation record
+
+Camera performance and 2D axis retention (2026-10-31):
+- All 148 Flow regression tests pass, including camera history, layout cache
+  retention, save/reload, XY transforms, Z filtering and data invalidation.
+- Camera-only edits keep the plot-data revision unchanged. Rotation, zoom and
+  reset reuse the browser event array and density colors; normalized XYZ
+  coordinates are calculated once and projected locally on each frame.
+- The current pose stays visible while its undoable setting is saved quietly.
+  Camera updates from another window also avoid population reloads. Changes to
+  real plot inputs still invalidate and reload the data.
+- Isolated browser verification on 775,792 events: zero plot-data requests and
+  no loading overlay for rotation/zoom/reset. Latest measured post-release
+  update: 0.122 s. This is a local measurement, not a frame-rate guarantee.
+- Switching 3D -> 2D explicitly retains current X/Y parameters, scales,
+  biexponential settings and bounds, hides Z, and removes Z's visibility filter.
+  Switching back restores Z. X/Y edited in 3D also survive the transition.
+- Browser checks pass for shared point buffers, undo/redo, Escape, camera reset,
+  independent-window refresh, actual-axis invalidation, new-tube imports with
+  identical display settings, and workspace save/reload.
+  Existing color, population overlay, projection and figure export checks pass.
+  No JavaScript errors were reported.
+- Packaged 0.10.1 checks pass on the saved 775,792-event workspace, including
+  camera data revisions, XY retention, exact gate counts, layout roundtrips and
+  SVG/PDF export. Bundled UI assets match the verified final source.
+- Workspace format remains 9, compatible with LBL Flow 0.10.0.
+
+Reproduce: tools/verify_flow_camera.py, tools/verify_flow_colors_three.py
+Artifacts: qa/flow-camera and qa/flow-colors-three
+
+Historical 0.10.0 validation:
+
+LBL Flow 0.10.0 - validation record
+
+3D density and bordeaux dots (2026-10-31):
+- 198 regression tests covered (187 existing plus 11 new density/outline cases).
+  The 25 density/figure tests also pass after final PDF outline rendering changes.
+- New plain-dot displays default to bordeaux. Saved custom colors are preserved;
+  Colors > Default resets the base color to bordeaux. Optional dot outlines are
+  off initially, black when enabled, and independently editable per view/layout.
+- Switching to three axes defaults to density; two-axis views remain the initial
+  sample default. Dot mode and population coloring remain available in 3D.
+- Density uses all visible transformed XYZ events in a 64^3 histogram, separable
+  Gaussian smoothing (sigma 1 bin), and relative log1p intensity before sampling
+  at most 35,000 dots. Camera rotation/zoom never enter the density estimate.
+  This is a display estimate within the current view, not absolute concentration.
+- Tests distinguish populations overlapping in XY but separated along Z, verify
+  full-event estimation before display sampling, finite empty/sparse/edge data,
+  camera invariance, unchanged exact gate masks, cropping and save/reload.
+- Browser checks pass for the 3D density default, rotation-stable colors,
+  bordeaux reset, outline enable/disable/custom colors, independent layout plots,
+  SVG/PDF/PNG exports and workspace reload. No JavaScript errors.
+- Existing color editing, population overlays, quadrant palettes, contrast,
+  independent layouts, 3D camera/undo, Z histograms and export checks also pass.
+- Exported PDF rendered and visually checked; thin dot edges use filled geometry
+  in PDF to avoid viewers rounding subpixel strokes into opaque black dots.
+- Packaged 0.10.0 checks pass for the 60,000-event density workspace and the
+  existing 775,792-event workspace: exact counts and gate roundtrips, all-visible
+  XYZ density (691,528 events within the large-sample XYZ limits), stable colors
+  on rotation, dot outlines, bundled controls and mixed vector SVG/PDF exports.
+- Workspace format 9 stores density and outline choices; formats 1-8 remain
+  readable. New archives require LBL Flow 0.10.0 or later.
+
+Reproduce: tools/verify_flow_density_three.py, tools/verify_flow_colors_three.py
+Artifacts: qa/flow-density-three and qa/flow-colors-three
+
+Historical 0.9.0 validation:
+
+LBL Flow 0.9.0 - validation record
+
+Colors, population overlays and three-axis views (2026-10-30):
+- 187 regression tests covered, including exact nested population color masks
+  on unrelated axes, overlap precedence, rare population retention, scope/undo,
+  legacy color migration, malformed color rejection, Z scaling/exclusion,
+  orthographic projection and gate counts unaffected by 3D viewing.
+- Upper quadrant labels are at the top outside corners; lower labels remain
+  at the bottom. Layout gate lines are 3.2 canonical pixels, gate labels 16px
+  bold with a halo, and population titles 22px bold. PDF halo fills are tested.
+- Default gates/contours use bordeaux. Same-screen siblings use complementary
+  colors. New gates on similar plot colors select a contrasting palette color.
+  Quadrants support uniform, original four-color palette, and custom colors.
+- Dot population coloring intersects original full event masks with the current
+  parent. Later enabled populations win overlap. Background sampling caps at
+  35,000 dots; highlighted layers share another 35,000-point budget, retaining
+  rare populations separately. Gate membership and full counts never use the
+  display sample. Color legends identify populations in 2D and 3D exports.
+- New samples default to 2D. 3D uses independent X/Y/Z transforms, draggable
+  rotation, wheel zoom, saved camera, and the Z histogram/axis controls.
+  Gating tools are disabled in 3D; existing 2D gates define the populations.
+  Three-dimensional points are ordered by depth for display and vector export.
+- Browser checks pass for color edit/cancel/undo, quadrant palettes, contrasting
+  new gates, nested-population colors, independent layout colors, 3D rotation,
+  zoom, Escape, one undo per rotation, Z histogram controls, numeric layout
+  camera editing, SVG/PDF/PNG export and save/reload. No JavaScript errors.
+- Existing layout movement/resizing/arrows and quadrant interaction checks pass.
+  Python and browser projection coordinates agree. Exported PDF was rendered
+  and visually checked, including bold colored labels and all three axis names.
+- Workspace format 8 stores colors and three-axis settings. Formats 1-7 remain
+  readable; new archives require LBL Flow 0.9.0 or later.
+- Packaged 0.9.0 checks pass for the new colored/3D workspace and the existing
+  775,792-event workspace: exact counts, color identity, Z previews, saved
+  layouts, bundled controls, and mixed contour/3D vector SVG/PDF exports.
+- Six-panel drag benchmark remains responsive: 0.054 s post-release update,
+  18.1 ms maximum measured frame, no API requests during the drag. This is a
+  local benchmark result rather than a guarantee for every machine or layout.
+
+Reproduce: tools/verify_flow_colors_three.py
+Artifacts: qa/flow-colors-three
+
+Historical 0.8.0 validation:
+
+LBL Flow 0.8.0 - validation record
+
+Layout performance and plot styles (2026-10-30):
+- 169 regression tests pass, including Gaussian probability contours, empty /
+  sparse / boundary cases, nonpositive log events, invariant population masks,
+  plot-style persistence, lower quadrant labels, and preview cache invalidation.
+- Contours use all visible events (before dot downsampling), a 160 x 160 grid,
+  Gaussian smoothing (sigma 1.2 bins), and ContourPy isolines. Levels estimate
+  equal-probability regions in 10%, 5%, or 2% steps, with optional outlier dots.
+  This is an independent display estimate, not FlowJo numerical identity.
+- In the same isolated Chromium drag benchmark, six plots of the user's
+  775,792-event sample: post-release update 4.559 s -> 0.065 s; maximum measured
+  drag frame 107.3 ms -> 18.1 ms; 95th percentile 28.8 ms -> 11.2 ms.
+  Preview DOM size 6,514,424 -> 782,829 bytes. No API calls while dragging.
+  Results are one local before/after run, not a guaranteed frame rate.
+- Figure editing caches raster point previews; axes, gates, contours and labels
+  remain vectors. Moving/resizing and annotations reuse cached populations.
+  Gate edits, source removal, changed plot settings, and undo invalidate correctly.
+  SVG/PDF exports still contain vector dots, contours, gates, axes and arrows.
+- Browser checks cover all plot styles, intervals/outliers, histogram switching,
+  lower quadrant labels, nested contour population windows, independent figure
+  styles, click without movement, late preview responses during a drag, Escape,
+  and SVG/PDF/PNG exports, with no JavaScript errors.
+- Existing layout move/resize, attached arrows, endpoint reconnection, tree drop,
+  Delete/undo, large dots, save/reload, and compact viewport checks pass.
+- Existing ellipse shaping, quadrant dragging, nested population windows,
+  independent axes, gate deletion and exact live descendant counts also pass.
+- Workspace format 7 stores display styles; formats 1-6 remain readable.
+  Newly saved workspaces require LBL Flow 0.8.0 or later.
+- Packaged executable checks pass with the new contour/dot figure workspace and
+  the existing 775,792-event workspace: ContourPy runtime, exact gate counts,
+  ellipse/quadrant edits, save/reload, cached preview and vector SVG/PDF export.
+  Exported PDF was rendered and visually checked for contours and lower labels.
+
+Reproduce: tools/benchmark_flow_layout_drag.py, tools/verify_flow_plot_styles.py
+Artifacts: qa/layout-performance and qa/flow-plot-styles
+
+Historical 0.7.0 validation:
+
+LBL Flow 0.7.0 - validation record
+
+Population displays and layout editor (2026-10-30):
+- Inspected the open LBL Population 1 CD5/B220 axes. Defaults after an
+  FSC-A/SSC-A gate use CD5 X: T=262144, W=1, M=5.82, A=0; B220 Y:
+  T=262144, W=1.59, M=6.16, A=0. Raw ranges are approximately
+  -64.954 to 262144 and -429.504 to 262144. Marker labels, not detector
+  indices, identify these channels. Custom population/parameter settings win.
+- 158 regression tests are covered, including saved population views, unchanged
+  gate membership, layout validation/round-trip/undo, source deletion, stale
+  cross-window edit rejection, native SVG/PDF saves, and overlapping PDF dots.
+- Browser checks confirm the automatic child axes and independent large-dot
+  settings in separate windows, with no count/history changes from dot size.
+- Layout checks add plots from separate windows and from the population tree,
+  move/resize panels, attach/reconnect arrows, edit labels, delete/undo, and
+  save/reopen the editable workspace. No JavaScript errors.
+- SVG and PDF preserve vector points, axes, gates, labels and arrows. PNG
+  exports at the chosen resolution; 3x of 1200 x 800 is 3600 x 2400.
+  Exported PDF was rendered and visually inspected; overlap uses nonzero fill.
+- Figure counts and gate outlines resolve from the current source population.
+  Removed sources are shown explicitly and block export until repaired.
+- Existing ellipse, quadrant, Delete, axis, and nested-window browser checks
+  pass. Layouts and per-population displays use workspace format 6; formats
+  1-5 remain readable. New archives require LBL Flow 0.7.0 or later.
+
+- Packaged 0.7.0 checks pass for the new figure workspace and the existing
+  775,792-event comparison workspace, including exact gate round-trips,
+  layout round-trip, bundled UI, and native SVG/PDF export dependencies.
+
+Reproduce: .venv\Scripts\python tools/verify_flow_layout.py
+Screenshots, exported figures, and report: qa/flow-layout
+
+Historical 0.6.0 validation:
+
+LBL Flow 0.6.0 - validation record
+
+Ellipse shaping update (2026-10-30):
+- 143 regression tests pass. Affine ellipse membership is checked against
+  independent rotated coordinates, including inclusive boundaries, nonfinite
+  events, unequal axis ranges, degenerate edits, and legacy two-corner gates.
+- Ellipses have end, side, corner, and rotation handles. End handles keep the
+  opposite end fixed; the rotation handle preserves center and display radii.
+  Shift-drag draws a circle even when raw X and Y ranges differ.
+- Browser pointer tests cover thinning, widening, tilting, rotation, aspect
+  ratio, movement, Escape, one undo step per drag, and redo. Drag previews
+  leave history and populations untouched and match the committed boundary.
+- Reshaped populations open in separate windows; descendants recalculate after
+  edits. Exact masks and geometry survive UI save/reload. Biexponential/Asinh
+  display changes preserve membership; reshaping on those axes also passes.
+- Existing multiwindow interactions, axis settings, quadrants, Delete, tube
+  selection, and Y-before-X interface checks pass. No JavaScript errors.
+- New workspaces use format 5. Formats 1-4 remain readable. Legacy ellipse
+  geometry stays unchanged on load and converts only when a shape handle is
+  edited. New format 5 archives require LBL Flow 0.6.0 or later.
+
+- Packaged 0.6.0 runtime checks pass with the new ellipse workspace and the
+  existing 775,792-event comparison workspace. Both verify ellipse rotation,
+  preview/commit equality, exact mask save/load, quadrant counts, and axes.
+- The desktop shortcut now targets dist/release-0.6.0/LBL Flow/LBL Flow.exe.
+
+Reproduce: .venv\Scripts\python tools/verify_flow_ellipses.py
+Screenshots and report: qa/flow-ellipses
+
+Historical 0.5.0 validation:
+
+LBL Flow 0.5.0 — validation record
+
+Quadrants and interface update (2026-10-30):
+- 126 regression tests pass. New checks cover quadrant boundary ownership,
+  exhaustive disjoint membership, events outside display limits, nested gates,
+  linked intersection edits, transform reprojection, undo/redo, individual
+  quadrant deletion, archive round-trip, and malformed group rejection.
+- Chromium checks create quadrants through the toolbar, drag their intersection,
+  open a quadrant in a separate population window, and draw a nested gate.
+- Delete removes a selected plotted gate or tree population and its descendants.
+  Ctrl+Z restores the subtree. Delete in an input or modal leaves gates intact.
+  Selecting a plotted gate clears stale tube selection.
+- Y parameter and scale appear before X; axis dialog tabs follow the same order.
+- Empty-state slogans and decorative prose were removed. Layouts were inspected
+  at 1480x940, 1250x700, and 1050x700. No JavaScript errors in the UI checks.
+- Existing gate, multiwindow, histogram-preview, tube-group, and parameter-memory
+  interaction checks pass. New archives use format 4; formats 1–3 remain readable.
+
+Reproduce: .venv\Scripts\python tools/verify_flow_quadrants.py
+Screenshots and report: qa/flow-quadrants
+
+Historical 0.4.1 validation:
+
+Saved FlowJo workspace follow-up (2026-10-29):
+- 120 regression tests pass. Per-parameter scales, custom limits, and
+  biexponential settings survive switching axes, undo/redo, and save/load.
+  Invalid saved preferences leave the current workspace unchanged.
+- Browser checks confirm parameter memory through the actual selectors,
+  including the 775,792-event comparison workspace.
+- Read 20261030.wsp and confirmed that its source is the same BALBC PerC FCS.
+  The acquisition matrices agree within 8.7e-9 per coefficient; the 99th
+  percentile absolute difference in compensated values is below 0.00003.
+- Saved scatter maxima: FSC-A 561,928; SSC-A 618,121.
+  CD5: T=26,214.4, positive=3.418539922, width basis=-25.1188643151.
+  B220: T=262,144, positive=4.418539922, width basis=-10.
+- Prepared an ungated LBL copy with those ranges and corresponding logicle
+  parameters (CD5 W=0.7, B220 W=0.5). This is not a FlowJo gate importer or a
+  claim of numerical equivalence to its legacy lookup-table transform.
+- The saved FlowJo count is 117,551, correcting the earlier screen reading
+  of 117,651. The rotated ellipse was not transferred to the comparison copy;
+  no matched-gate count equivalence has been established.
+
+Historical 0.4.0 validation:
+
+Display correction checks (2026-10-29):
+- 117 regression tests pass, including outlier-resistant display limits,
+  automatic acquisition compensation, unchanged source values and gate masks,
+  stable fluorescence domains, and legacy workspace display preservation.
+- The user's 775,792-event BALBC 8W PerC sample was imported through the UI.
+  Initial axes: FSC-A 0..550,000 and SSC-A 0..650,000, both linear.
+  84,209 events lie outside this display, with all 775,792 retained in counts.
+- CD5 (BV480-A) versus B220 (APC-Cy7-A) uses stable biexponential domains,
+  with the embedded 8-channel acquisition matrix applied automatically.
+  199 events fall outside that fluorescence display; source SHA-256 unchanged.
+- Reset display defaults restores the current parameters' starting settings
+  in one undo step. Scatter remains square at large and compact window sizes.
+  Existing scatter gates stay visible when their channels are outside the
+  compensation matrix; fluorescence gates retain their original compensation.
+- Browser checks cover gate drag/resize, three independent population windows,
+  live descendant counts, axis histograms/sliders, and tube organization.
+  No JavaScript errors occurred in those checks or the actual-sample run.
+- New workspaces use format 3; formats 1 and 2 remain readable. Prior saved
+  display settings and gates are retained until explicitly changed.
+
+Reproduce the actual-sample check with its local FCS path:
+  .venv\Scripts\python tools/verify_flow_display.py "path-to-sample.fcs"
+Reports and screenshots: qa/flow-display; additional UI checks: qa/flow-interactions
+and qa/flow-workspace.
+
+The open FlowJo and LBL lymphocyte gates had different event counts (117,651
+and 145,764 respectively). This update corrects display defaults, not the user's
+gate boundaries. A matched-gate numerical comparison requires the saved FlowJo
+workspace; exact equivalence has not been established.
+
+Historical validation:
+
+Version 0.3.1 is a branding update: LBL Flow names in the application, window
+titles, dialogs and exported filenames; shared antibody SVG and Windows icon.
+The workspace format and .pflow extension are unchanged for compatibility.
+The original 0.3 behavioral validation follows below.
+
+Version 0.3 verification (111 passing automated regression tests):
+- Native WinForms closing callback returns without waiting for JavaScript or locks.
+- Actual hidden WebView2 windows: Cancel, cancelled Save, Discard, Save & close,
+  nested population-window cleanup, and clean close (about 0.3 seconds).
+- Save & close archive reopens with 60,000 events and a 36,878-event test gate.
+- Full-population histogram previews leave gates, revision, and undo history intact.
+- Drag X-axis limits, drag histogram Y count limits, and adjust biexponential sliders.
+- Preview cancellation and a single undo step for applying the axes.
+- Filename/$FIL control detection, including mixed case; embedded spillover alone
+  does not classify a sample as a single-stain control.
+- Group drag-and-drop, manual overrides, detection reset, and save/load round-trip.
+- Batch tube removal and one-step undo restore all original tubes and gates.
+- UI layouts inspected at 1480x940 and 1050x700; no JavaScript errors in the tests.
+
+Reproduce new interaction and native close checks:
+  .venv\Scripts\python tools/verify_flow_workspace.py
+  .venv\Scripts\python tools/verify_flow_close.py
+
+New interaction checks:
+- Logicle forward/inverse round-trip, reference values, and parameter constraints.
+- Manual raw-unit ranges crop display only; saved workspaces retain axis settings.
+- Gates are reprojected across valid display scales without changing membership.
+- Body drag, resize handles, polygon vertices, histogram-range edges, and undo/redo.
+- Double-clicking the gate interior opens separate population windows.
+- Three nested windows preserve independent selection and axes; descendant counts
+  update after parent gate edits. Invalid logarithmic ranges are rejected.
+- A native WebView2 test opens an actual secondary population window, confirms
+  36,878 events, and confirms the parent's selection remains All events.
+- Version 0.1 archives remain readable; new archives use version 2.
+
+Automated model and native-bridge tests:
+- FCS preprocessing and independent big-endian integer FCS decoding.
+- Inclusive rectangle, polygon, ellipse, and range membership.
+- Parent intersection, 14-level nesting, empty populations, and percentages.
+- Immutable gate coordinate settings across display changes.
+- Known spillover correction with a nonsymmetric matrix and negative values.
+- Invalid matrix reporting and invalid FCS metadata rejection.
+- Redraw recalculates descendants; delete/undo/redo restores the subtree.
+- Archive round-trip retains original FCS bytes, gate hierarchy, and selection.
+- Malformed workspace loads preserve the current workspace.
+- Plot subsampling leaves exact gate counts and histograms unchanged.
+- Native file-dialog cancellation, save-in-place, reopen, and mixed-validity import.
+- Native bridge exposes the intended file actions and population-window action.
+
+Headless Chromium integration, using the actual app and localhost server:
+- Draw and name rectangle, polygon, ellipse, and histogram-range gates.
+- Enter nested populations and change fluorescence axes to Asinh.
+- Undo and redo gate creation.
+- Save a .pflow through the UI, start a new workspace, and reopen the saved file.
+- Import public FlowIO fixture 100715.fcs: 65,016 events and 16 parameters.
+- Confirm importing a second sample preserves the first sample's gate tree.
+- Export CSV statistics and verify layout at 1480x940 and 1050x700.
+- No JavaScript errors during the integration run.
+- Synthetic hierarchy counts: 36,878 -> 25,924 -> 16,294 events.
+
+Visual inspection: empty state, density scatter with nested gates, compact layout.
+The default Windows native app launches with Edge WebView2. Its file actions also
+have direct tests using deterministic dialog responses.
+
+Reproduce model/native tests:
+  .venv\Scripts\python -m pytest tests -q --basetemp qa/flow-tests
+
+Reproduce UI test (development only; requires Playwright and installed Chrome):
+  .venv\Scripts\python tools/verify_flow_ui.py
+
+Upstream FCS fixtures are downloaded separately into qa/flow-fixtures:
+  https://github.com/whitews/FlowIO/tree/master/data/fcs_files
+The variable_int_example.fcs fixture has intentionally nonnumeric timestep
+metadata; the app correctly reports this rather than silently guessing a value.
+
+Additional reproduction commands:
+  .venv\Scripts\python tools/verify_flow_interactions.py
+  .venv\Scripts\python tools/verify_flow_native.py
+
+Limitations: these checks do not establish instrument-specific equivalence to
+FlowJo, compensation-control validity, or clinical validation. Biexponential uses
+the Gating-ML logicle implementation; it is distinct from FlowJo's legacy
+width-basis lookup-table transform.
